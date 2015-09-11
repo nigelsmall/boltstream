@@ -1,11 +1,11 @@
-= Client API for Neo4j Bolt Protocol
+# Client API for Neo4j Bolt Protocol
 
 The interfaces in this repository describe layers of API for Neo4j Bolt drivers.
 At the lowest level is the protocol-idiomatic *Connector API* which is based on the reactive stream model.
 Above that, language and framework idiomatic *Application API* are defined.
 
 
-== Connector API
+## Connector API
 
 ```java
 public interface Connection
@@ -62,6 +62,6 @@ public interface Stream
 ```
 
 
-== Application API
+## Application API
 
-TODO
+_TODO_
